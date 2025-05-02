@@ -3,13 +3,13 @@ import { S3Client } from '@aws-sdk/client-s3';
 import { Upload } from '@aws-sdk/lib-storage';
 
 const s3 = new S3Client({
-  region: import.meta.env.VITE_REGION,
-  credentials: {
-    accessKeyId: import.meta.env.VITE_ACCESS_KEY_ID,
-    secretAccessKey: import.meta.env.VITE_SECRET_ACCESS_KEY
-  }
-});
-
+    region: import.meta.env.VITE_REGION,
+    credentials: {
+      accessKeyId: import.meta.env.VITE_ACCESS_KEY_ID,
+      secretAccessKey: import.meta.env.VITE_SECRET_ACCESS_KEY
+    }
+  });
+  
 
 const FileUpload = () => {
   const [file, setFile] = useState(null);
@@ -59,7 +59,7 @@ const FileUpload = () => {
 
   return (
     <div style={styles.container}>
-      <h2 style={styles.title}>File Upload to S3</h2>
+      <h2 style={styles.title}>Upload File to Aws-S3</h2>
 
       <input 
         type="file" 

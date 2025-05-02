@@ -2,7 +2,7 @@
 A simple React application that allows users to upload files directly to an AWS S3 bucket. Built using Vite for fast performance and modern development tooling.
 
 ## Live Demo  
-[View the Live App](https://your-vercel-app-link.vercel.app)
+[View the Live App](drop-s3.vercel.app)
 
 ## Features  
 - Select and upload files from your local device  

@@ -1,5 +1,5 @@
 {
-  "name": "react-s3-upload",
+  "name": "drop-s3",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,8 +13,7 @@
     "@aws-sdk/client-s3": "^3.800.0",
     "@aws-sdk/lib-storage": "^3.800.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-dropzone": "^14.3.8"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
