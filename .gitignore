@@ -1,8 +1,8 @@
 # Node modules
-/node_modules
+node_modules/
 
 # Vite build output
-/dist
+dist/
 
 # Local env files
 .env
